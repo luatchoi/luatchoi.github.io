@@ -1,3 +1,77 @@
-.test {
-    color: red;
+$bg: #333;
+$bgDarker: #2b2b2b;
+$bgDarkest: #212121;
+$textColor: #ddd;
+$textHighlight: #fc0;
+$textHighlightHover: #f90;
+$fontSize: 21px;
+$fontWeight: 300;
+$footerFixHeight: 12em;
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    background-color: $bg;
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    color: $textColor;
+    margin-bottom: $footerFixHeight;
+}
+footer {
+    background-color: $bgDarkest;
+    font-size: 16px;
+    padding: 15px 0 5px 0;
+    height: $footerFixHeight;
+    margin-top: 40px;
+    position: absolute;
+    bottom: 0;
+}
+h1 {
+    font-size: 1.75em;
+    line-height: 1em;
+    font-weight: 300;
+}
+a {
+    color: $textHighlight;
+}
+a:hover {
+    color: $textHighlightHover;
+    text-decoration: none;
+}
+nav.bg-dark {
+    background-color: $bgDarker!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 0.75em;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    color: $textHighlight;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: $textHighlightHover;
+}
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: $bgDarker;
+    background-color: $textHighlight;
+}
+ul.post-list, ul.social-media-list {
+    list-style-type: none;
+}
+.svg-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    fill: #828282;
+    margin-right: 5px;
+    vertical-align: text-top;
+}
+@media (min-width: 569px) {
+    h1 {
+        font-size: 3.2em;
+    }
 }
