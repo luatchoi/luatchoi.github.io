@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+excerpt: "This is just an example of a blog post."
 date:   2020-01-28 21:46:21 +0700
 categories: jekyll update
 ---
