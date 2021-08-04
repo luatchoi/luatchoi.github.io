@@ -18,15 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Cách tính bách sự
-email: your-email@example.com
+title: Luật chơi
+email: contact@luatchoi.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Các công thức được trình bày trên trang web này có thể không hoàn toàn chính xác hoặc đã lỗi thời. Các tác giả không chịu trách nhiệm với bất kỳ hệ quả nào, nếu có, từ việc sử dụng nội dung của trang web này.
+  Các luật chơi, luật thi đấu, cách chơi được trình bày trên trang web này có thể không hoàn toàn chính xác hoặc đã lỗi thời. Các tác giả không chịu trách nhiệm với bất kỳ hệ quả nào, nếu có, từ việc sử dụng nội dung của trang web này.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cachtinh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://luatchoi.com" # the base hostname & protocol for your site, e.g. http://example.com
 show_excerpts: True
-github_username:  cachtinh/cachtinh.github.io
-paginate: 2
+github_username:  luatchoi/luatchoi.github.io
+paginate: 9999
 paginate_path: "/blog/page:num/"
 
 # Build settings
