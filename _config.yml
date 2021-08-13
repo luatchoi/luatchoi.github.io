@@ -28,7 +28,7 @@ show_excerpts: True
 github_username:  luatchoi/luatchoi.github.io
 paginate: 9999
 paginate_path: "/blog/page:num/"
-# permalink: /:title:output_ext
+permalink: /:title:output_ext
 
 # Build settings
 theme: minima

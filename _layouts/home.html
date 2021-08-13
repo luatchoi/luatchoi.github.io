@@ -19,8 +19,8 @@ layout: default
         {%- for post in site.posts -%}
         <li class="float-left col-lg-4 col-md-4 col-sm-2 mt-2">
             <a href="{{ post.url | relative_url }}" class="post-link">
-              <img src="{{ post.thumbnail }}" class="img-fluid" title="{{ post.title}}" alt="{{ post.title}}">
-              <p>{{ post.title }}</p>
+              <img src="{{ post.thumbnail }}" class="img-fluid" title="{{ post.title}}" alt="{{ post.title}}" width="200">
+              <p class="mt-1">{{ post.title }}</p>
             </a>
         </li>
         {%- endfor -%}
