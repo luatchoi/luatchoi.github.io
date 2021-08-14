@@ -14,9 +14,10 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
+  {% assign sorted_posts = site.posts | sort:"weight" %}
     <div class="row pt-3">
       <ul class="post-list pl-0 w-100">
-        {%- for post in site.posts -%}
+        {%- for post in sorted_posts -%}
         <li class="float-left col-lg-4 col-md-4 col-sm-2 mt-2">
             <a href="{{ post.url | relative_url }}" class="post-link">
               <img src="{{ post.thumbnail }}" class="img-fluid" title="{{ post.title}}" alt="{{ post.title}}" width="200">
