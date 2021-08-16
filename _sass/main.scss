@@ -171,6 +171,9 @@ td {
     color: $bgDarker;
     background-color: $textHighlight;
 }
+ul.post-list > li {
+    min-height: 200px
+}
 ul.post-list, ul.social-media-list {
     list-style-type: none;
 }
