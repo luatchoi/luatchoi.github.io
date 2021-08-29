@@ -4,15 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+LuậtChơi.com được tạo ra với mục đích cung cấp luật chơi và diễn giải cách chơi của các môn thể thao hoặc trò chơi phổ biến.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Chúng tôi hoan nghênh Bạn thể đóng góp nội dung hoặc thông báo lỗi sai cho LuậtChơi.com thông qua Github:
+[github.com/luatchoi](https://github.com/luatchoi/luatchoi.github.io)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Vui lòng chỉ sử dụng nội dung của website này với mục đích tham khảo.
