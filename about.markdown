@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+description: 'LuậtChơi.com là website cung cấp luật thi đấu thể thao, từ bóng đá, tennis cho đến các môn thể thao ít phổ biến hơn như cricket hay ném phi tiêu.'
 permalink: /about/
 ---
 
