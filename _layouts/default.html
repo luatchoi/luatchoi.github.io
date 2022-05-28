@@ -5,6 +5,11 @@
 
     {%- include header.html -%}
 
+    <script src={{ "/assets/js/jquery-3.3.1.slim.min.js" | relative_url }}></script>
+    <script src={{ "/assets/js/popper.min.js" | relative_url }}></script>
+    <script src={{ "/assets/js/bootstrap.min.js" | relative_url }}></script>
+    <script src={{ "/assets/js/custom.js" | relative_url }}></script>
+    
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
@@ -12,9 +17,6 @@
     </main>
 
     {%- include footer.html -%}
-    <script src={{ "/assets/js/jquery-3.3.1.slim.min.js" | relative_url }}></script>
-    <script src={{ "/assets/js/popper.min.js" | relative_url }}></script>
-    <script src={{ "/assets/js/bootstrap.min.js" | relative_url }}></script>
-    <script src={{ "/assets/js/custom.js" | relative_url }}></script>
+    
   </body>
 </html>
